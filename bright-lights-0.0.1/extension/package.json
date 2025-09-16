@@ -1,0 +1,27 @@
+{
+  "name": "bright-lights",
+  "displayName": "Bright Lights",
+  "description": "Color theme inpired by kitty's Bright Lights theme",
+  "publisher": "hittero",
+  "repository": {
+    "directory": "/",
+    "type": "git",
+    "url": "https://github.com/hittero/bright-lights-vscode-theme"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Bright-Lights",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Bright-Lights-color-theme.json"
+      }
+    ]
+  }
+}
